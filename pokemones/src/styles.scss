@@ -1,0 +1,14 @@
+@import "~src/assets/scss/angular-material";
+
+@font-face {
+    font-family: "Poppins";
+    src: url(assets/fonts/Poppins/Poppins-Regular.ttf) format("opentype");
+}
+
+html, body { height: 100%; }
+body { margin: 0}
+
+span, p, b{
+    font-family: "Poppins" !important;
+}
+
