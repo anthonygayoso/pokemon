@@ -11,10 +11,10 @@ CREATE TABLE `pokemon` (
   `weight` int(11) DEFAULT NULL,
   `height` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `SP_CREATE_POKEMON`(
+CREATE PROCEDURE `SP_CREATE_POKEMON`(
 	IN p_name VARCHAR(250),
     IN p_experience INT,
     IN p_weight INT,
