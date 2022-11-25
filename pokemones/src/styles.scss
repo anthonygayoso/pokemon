@@ -1,4 +1,5 @@
-@import "~src/assets/scss/angular-material";
+@import "src/assets/scss/angular-material";
+@import "bootstrap/dist/css/bootstrap.css";
 
 @font-face {
     font-family: "Poppins";
@@ -12,3 +13,6 @@ span, p, b{
     font-family: "Poppins" !important;
 }
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

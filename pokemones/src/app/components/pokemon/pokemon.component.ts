@@ -75,7 +75,6 @@ export class PokemonComponent implements OnInit {
       (error) => {
         this.loadData = false;
         Swal.fire(
-          '',
           'El pokemon consultado no se encuentra en la base de datos.',
           'info'
         );
